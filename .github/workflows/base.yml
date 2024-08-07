@@ -1,6 +1,9 @@
 name: leticia
-
-
+on:
+    push:
+        branches:
+            - dev
+            - qa
 jobs:
   lint:
     runs-on: ubuntu-latest
